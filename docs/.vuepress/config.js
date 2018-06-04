@@ -24,8 +24,15 @@ module.exports =　{
         ],
         sidebar: [
             '/',
-            '/page-a',
-            ['/page-b', 'Explicit link text']
+            '/about/',
+            {
+              title: 'Group 1',
+              collapsable: false,
+              children: [
+                '/guide/'
+              ]
+            }
           ]
+          
     }
 }
